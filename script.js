@@ -68,7 +68,7 @@ document.getElementById('btnOver').addEventListener('click', function () {
 
 document.getElementById('btnLess').addEventListener('click', function () {
         if (gameRun){
-             if (minValue === answerNumber){
+             if (minValue === maxValue){
                     const phraseRandom = Math.round( Math.random());
                     const answerPhrase = (phraseRandom === 1) ?
                     `Вы загадали неправильное число!\n\u{1F914}` :
