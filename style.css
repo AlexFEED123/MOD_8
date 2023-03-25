@@ -1,0 +1,34 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+body{
+    background-image:  url(https://phonoteka.org/uploads/posts/2021-03/1616643443_2-p-matritsa-fon-2.jpg);
+}
+
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 9px;
+
+}
+button:hover {background-color: cornflowerblue;}
+
+button:active {
+  background-color: cadetblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.card{
+ background: rgba(62, 163, 218, 0.671);
+ 
+}
+
+#btnRetry {
+ font-size: 16px;
+ border-radius: 12px;
+ background-color: aqua; 
+    color: black; 
+    border: 4px solid #008CBA;
+    text-decoration: none;
+}
